@@ -1,0 +1,37 @@
+{
+  "dashboard": "Dashboard",
+  "products": "Products",
+  "users": "Users",
+  "orders": "Orders",
+  "payments": "Payments",
+  "topCustomers": "Top Customers",
+  "salesByCategory": "Top Sales by Category",
+  "monthlyRevenue": "Monthly Revenue",
+  "mostSearched": "Most Searched Categories",
+  "monthlyOrders": "Orders per Month",
+  "customer": "Customer",
+  "orderCount": "Orders",
+  "totalPurchases": "Total Purchases",
+  "currency": "EGP",
+
+  "shoes": "Shoes",
+  "clothes": "Clothes",
+  "accessories": "Accessories",
+  "electronics": "Electronics",
+
+  "january": "January",
+  "february": "February",
+  "march": "March",
+  "april": "April",
+  "may": "May",
+  "june": "June",
+  
+  "categories": "Categories",
+  "brands": "Brands",
+  "offers": "Offers",
+  "coupons": "Coupons",
+  "settings": "Settings"
+
+}
+
+

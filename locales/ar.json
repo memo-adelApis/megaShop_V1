@@ -1,0 +1,35 @@
+{
+  "dashboard": "لوحة التحكم",
+  "products": "المنتجات",
+  "users": "المستخدمون",
+  "orders": "الطلبات",
+  "payments": "المدفوعات",
+  "topCustomers": "أفضل العملاء",
+  "salesByCategory": "الأكثر مبيعًا حسب الفئة",
+  "monthlyRevenue": "الإيرادات الشهرية",
+  "mostSearched": "أكثر الفئات بحثًا",
+  "monthlyOrders": "عدد الطلبات خلال الأشهر",
+  "customer": "العميل",
+  "orderCount": "عدد الطلبات",
+  "totalPurchases": "إجمالي المشتريات",
+  "currency": "جنيه",
+  "shoes": "أحذية",
+  "clothes": "ملابس",
+  "accessories": "إكسسوارات",
+  "electronics": "إلكترونيات",
+  "january": "يناير",
+  "february": "فبراير",
+  "march": "مارس",
+  "april": "أبريل",
+  "may": "مايو",
+  "june": "يونيو" ,
+    
+  "categories": "الفئات",
+  "brands": "الماركات",
+  "offers": "العروض",
+  "coupons": "الكوبونات",
+  "settings": "الإعدادات"
+
+}
+
+

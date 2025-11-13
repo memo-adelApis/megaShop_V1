@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* ألوان أساسية - يمكن تعديلها بسهولة */
+  --color-bg: #ffffff;
+  --color-surface: #f8f8f8;
+  --color-text: #0b0b0b;
+  --color-muted: #444444;
+  --color-accent: #0b0b0b;     /* الأزرار/البادجات الداكنة */
+  --color-on-accent: #ffffff;  /* نص داخل الأزرار الداكنة */
+  --color-disabled: #ededed;
+}
+
+/* عام */
+body, .min-h-screen {
+  background: var(--color-bg) !important;
+  color: var(--color-text) !important;
+}
+
+/* ظلال أخف */
+.shadow, .shadow-sm, .shadow-lg, .shadow-xl {
+  box-shadow: 0 1px 6px rgba(0,0,0,0.06) !important;
+}
+
+/* ألوان الأزرار والبادجات الداكنة باستخدام المتغير */
+.bg-green-600, .bg-emerald-600, .bg-blue-600, .bg-red-500 {
+  background-color: var(--color-accent) !important;
+  color: var(--color-on-accent) !important;
+}
+
+/* hover لنسخ الألوان الداكنة */
+.hover\:bg-green-700:hover, .hover\:bg-blue-700:hover, .hover\:bg-green-700:focus {
+  background-color: #000000 !important;
+}
+
+/* أسطح فاتحة */
+.bg-green-100, .bg-blue-100, .bg-gray-100, .bg-gray-200 {
+  background-color: var(--color-surface) !important;
+  color: var(--color-text) !important;
+}
+
+/* نصوص معتمة */
+.text-green-600, .text-blue-700, .text-red-500 {
+  color: var(--color-text) !important;
+}
+
+/* أزرار/عناصر معطلة */
+.disabled\:bg-gray-400:disabled, .cursor-not-allowed {
+  background-color: var(--color-disabled) !important;
+  color: #9b9b9b !important;
+}
+
+/* Badge darker tone */
+.bg-emerald-600, .bg-red-500 {
+  background-color: var(--color-accent) !important;
+  color: var(--color-on-accent) !important;
+}
+
+/* روابط */
+a, a:visited { color: var(--color-text) !important; }
+
+/* نصوص ثانوية */
+.text-gray-500, .text-gray-600, .text-gray-700 {
+  color: var(--color-muted) !important;
+}
+
+/* تأكد من وضوح الأيقونات داخل الأزرار الداكنة */
+.bg-green-600 svg, .bg-blue-600 svg, .bg-red-500 svg {
+  color: var(--color-on-accent) !important;
+}
+
+/* الحفاظ على clipping للزوايا */
+.rounded-2xl, .rounded-xl { background-clip: padding-box; }
+
+/* Typography overrides for dark elements: ensure white text on dark backgrounds */
+*[class*="bg-"][style*="background-color: var(--color-accent)"],
+.bg-green-600, .bg-blue-600, .bg-emerald-600, .bg-red-500 {
+  color: var(--color-on-accent) !important;
+}
+
+/* responsive helper already present */
+@media (min-width: 768px) {
+  .sidebar {
+    transform: translateX(0);
+  }
+}
+
